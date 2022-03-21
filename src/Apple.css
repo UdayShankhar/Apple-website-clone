@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Poppins:ital,wght@0,400;1,400;1,500&family=Tangerine:wght@700&display=swap');
+*{
+    background-color: black;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navigation{
+    display: flex;
+    position: sticky;
+    width: 100%;
+}
+
+.apple-logo{
+    margin-left: 170px;
+}
+
+.head{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 48px;
+}
+
+.head:hover{
+    color: #fff;
+}
+
+.navigation .search-logo{
+    margin-left: 50px;
+}
+
+.apple-iphone1{
+    color: whitesmoke;
+}
+
+.applephone1{
+    width: 100%;
+    height: 800px;
+}
+
+.phone2{
+    position: relative;
+}
+.description{
+position: absolute;
+right: 82px;
+
+}
+.iphone-se{
+    margin-left: 170px;
+}
+
+.link1{
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.ipad{
+    position: relative;
+    margin-top: 120px;
+}
+
+.air{
+    font-family: 'Tangerine', cursive;
+    font-size: 7rem;
+    margin-left: 30px;
+    color: rgb(137, 75, 165);
+}
+
+.ipad-description{
+    position: absolute;
+    right: 100px;
+}
+
+.boxes{
+    display: flex;
+}
+
+.box{
+    width: 50%;
+    margin-top: 100px;
+    height: 600px;
+    border: 1px solid whitesmoke;
+}
+
+.box .iMac-description{
+    text-align: center;
+}
+
+.iMac-description .hello{
+    color: rgb(137, 75, 165);
+    font-size: 3rem;
+}
+
+.box .iMac{
+    margin-top: 50px;
+    object-fit: cover;
+    width:760px;
+}
+
+.mac-studio{
+    margin-top: 80px;
+}
+
+.iWatch-img{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.airmax-headphones{
+    position: relative;
+}
+
+.airmax-headphones .airmax-description{
+    position: absolute;
+    margin-left: 1000px;
+    top: 200px;
+}
+
+.airmax-headphones .airmax-description .d{
+    margin-top: 28px;
+}
+
+.airm{
+    display: flex;
+    margin-top: 35px;
+}
+
+.l1{
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+.airmax{
+    margin-top: 60px;
+}
+
+/* .footer{
+    margin-top: 30px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+} */
+.foote{
+    margin-top: 30px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.shop-and-learn{
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.mac{
+    margin-top: 8px;
+    text-decoration: none;
+    color: #fff;
+}
+.mac:hover{
+color: #fff;
+text-decoration: underline;
+}
+.sal{
+    font-weight: 900;
+}
+
+.sl{
+    text-decoration: none;
+    color: #fff;
+}
+
+.sl:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.services .service{
+    margin-left: 60px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.music{
+    margin-left: 60px;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 6px;
+}
+
+.appstore{
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.appstor{
+    font-weight: 900;
+}
+
+.app-s{
+    margin-top: 4px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.app-s:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+
+.three-rows{
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.for-business{
+    font-weight: 900;
+}
+
+.for-education{
+    margin-top: 46px;
+    font-weight: 900;
+}
+
+.for-healthcare{
+    margin-top: 50px;
+    font-weight: 900;
+}
+
+.final{
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.apple-values{
+    font-weight: 900;
+}
+
+.about-apple{
+    margin-top: 60px;
+    font-weight: 900;
+}
+
+.last-lines{
+    display: flex;
+    flex-direction: row;
+}
+
+.line{
+    width: 200px;
+    border-bottom: 2px solid #fff;
+}
+
+.copyrights{
+    margin-left: 190px;
+    margin-top: -60px;
+}
+
+.location{
+    margin-top: -60px;
+    margin-left: 550px;
+}
