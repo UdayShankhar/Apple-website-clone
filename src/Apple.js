@@ -158,7 +158,7 @@ function Apple() {
                         </div>
                         
                         <div className='last-lines'>
-                            <h6 className='copyrights'>Copyright © 2022 Apple Inc. All rights reserved.</h6>
+                            <h6 className='copyrights'>Copyrights © Created by Uday Shankhar--All rights reserved.</h6>
                             <h6 className='location'>India</h6>
                         </div>
                     </footer>
